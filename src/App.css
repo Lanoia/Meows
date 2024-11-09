@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #E9FFF9;
+}
+
+body{
+    background-image: url("/Background 1.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100%;
+}
+
+.montserrat-regular {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section1 {
+    width: auto;
+    display: flex;
+    justify-content: space-between; /* Space out items */
+    align-items: center;
+    padding: 20px 120px;
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
